@@ -1,14 +1,14 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
   "releaseDate": "2026-09-25",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/latest/download/Mowan-Agent-Setup-latest.exe",
-  "sha256": "64abee378e69e462e5c90571e529507683559f1e3a75fa718b88efa2abaea452",
-  "fileSize": 184176768,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-latest.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.0.2/Mowan-Agent-Setup-2.0.2.exe",
+  "sha256": "03e47aa9928f7203f09f3ddd98e3416d2edd6db9d8401fea451414d7f6dff210",
+  "fileSize": 182775406,
   "changelog": [
-    "🎉 魔丸 (Mowan Agent) v2.0.1 正式发布",
-    "✨ 升级客户端版本检测与设置齿轮红点实时提示",
-    "🚀 优化原生安装程序覆盖升级与平滑自重启机制"
+    "Performance improvements",
+    "Bug fixes"
   ]
 }
