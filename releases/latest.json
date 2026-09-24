@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2026-04-16",
+  "minSupportedVersion": "1.0.0",
+  "mandatory": false,
+  "downloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/latest/download/Mowan-Agent-Setup-latest.exe",
+  "sha256": "",
+  "fileSize": 0,
+  "changelog": [
+    "🎉 魔丸 (Mowan Agent) 首个正式版 v1.0.0 发布",
+    "✨ 支持内置独立 Node.js 运行时与免环境一键安装",
+    "✨ 新增版本在线检测、设置红点提醒与一键覆盖升级"
+  ]
+}
