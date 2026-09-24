@@ -1,16 +1,16 @@
 {
-  "version": "2.0.2",
+  "version": "2.0.3",
   "releaseDate": "2026-09-25",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
   "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-latest.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.0.2/Mowan-Agent-Setup-2.0.2.exe",
-  "sha256": "e5f7052113f83ede81f0b02f77e4c1ee6bf41875c6537c3ae39a4e806a1fe0a6",
-  "fileSize": 181344467,
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.0.3/Mowan-Agent-Setup-2.0.3.exe",
+  "sha256": "115a90f374c323e2dfec10d036ea755feea511ca36adca9fb77b3c7e9698ee1c",
+  "fileSize": 182832905,
   "changelog": [
-    "🎉 魔丸 (Mowan Agent) v2.0.2 正式发布",
-    "✨ 接入 ukapi.cc 官方高速下载与在线更新主通道",
-    "🚀 支持设置齿轮红点实时感知与一键静默覆盖升级",
-    "🐛 原生安装程序优化已有安装目录自探与平滑重启"
+    "左侧栏版本徽章支持动态更新感知与一键直达设置",
+    "全面优化 sub2api / ukapi.cc 一键导入魔丸体验",
+    "本地 WebServer 增加 CORS 跨域与 Chrome PNA 预检支持",
+    "性能提升与已知问题修复"
   ]
 }
