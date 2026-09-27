@@ -1,15 +1,13 @@
 {
-  "version": "2.1.3",
+  "version": "2.1.4",
   "releaseDate": "2026-09-27",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.3.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.3/Mowan-Agent-Setup-2.1.3.exe",
-  "sha256": "986cac862affda7b56535db13697d9c697d6ec4e027c1accf314751204d1a3cf",
-  "fileSize": 182855378,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.4.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.4/Mowan-Agent-Setup-2.1.4.exe",
+  "sha256": "37098a27bf5f7d122d6c377335edfbacbc8f659aa6bc3f4c0d713f4b9f2af618",
+  "fileSize": 182854486,
   "changelog": [
-    "⚡ 上下文压缩核心优化：默认触发阈值对齐为 0.25、保留比例对齐为 0.05，并在手动压缩时跳过缩减比例校验",
-    "📱 移动端侧边栏交互增强：窄屏下切换或新建会话自动折叠侧边栏",
-    "🔇 完善静默升级重启机制"
+    "彻底修复代码模式下硬编码未注册模型导致的压缩失败问题，恢复 /compact 功能；所有模式压缩总结模型自动继承活跃会话模型"
   ]
 }
