@@ -1,16 +1,16 @@
 {
-  "version": "2.0.3",
-  "releaseDate": "2026-09-25",
+  "version": "2.1.1",
+  "releaseDate": "2026-09-27",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-latest.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.0.3/Mowan-Agent-Setup-2.0.3.exe",
-  "sha256": "115a90f374c323e2dfec10d036ea755feea511ca36adca9fb77b3c7e9698ee1c",
-  "fileSize": 182832905,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.1.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.1/Mowan-Agent-Setup-2.1.1.exe",
+  "sha256": "e3f2c582de73f14e0ada2618981717ac3f16a6c1ffbea7b6a3e9b21743e08590",
+  "fileSize": 182859192,
   "changelog": [
-    "左侧栏版本徽章支持动态更新感知与一键直达设置",
-    "全面优化 sub2api / ukapi.cc 一键导入魔丸体验",
-    "本地 WebServer 增加 CORS 跨域与 Chrome PNA 预检支持",
-    "性能提升与已知问题修复"
+    "📱 移动端响应式布局增强：展开侧边栏自动转为抽屉浮层并防溢出",
+    "🌐 远程连接支持真实物理网卡 LAN 地址发现并过滤虚拟网卡",
+    "🔐 非回环流量口令鉴权与自定义访问密码设置",
+    "🚀 合并 mowan 分支更新并优化在线升级体验"
   ]
 }
