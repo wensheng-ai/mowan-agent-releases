@@ -1,16 +1,16 @@
 {
-  "version": "2.1.1",
+  "version": "2.1.2",
   "releaseDate": "2026-09-27",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.1.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.1/Mowan-Agent-Setup-2.1.1.exe",
-  "sha256": "e3f2c582de73f14e0ada2618981717ac3f16a6c1ffbea7b6a3e9b21743e08590",
-  "fileSize": 182859192,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.2.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.2/Mowan-Agent-Setup-2.1.2.exe",
+  "sha256": "3b471b13349d8217f9e540428eb846293326e498c5b9d486d21b1ca048ca453b",
+  "fileSize": 182856656,
   "changelog": [
-    "📱 移动端响应式布局增强：展开侧边栏自动转为抽屉浮层并防溢出",
-    "🌐 远程连接支持真实物理网卡 LAN 地址发现并过滤虚拟网卡",
-    "🔐 非回环流量口令鉴权与自定义访问密码设置",
-    "🚀 合并 mowan 分支更新并优化在线升级体验"
+    "📱 移动端侧边栏交互增强：在手机/窄屏模式下，切换会话、新建会话或点击聊天主区域时自动折叠侧边栏",
+    "⚡ 上下文压缩机制优化：阈值调整为 0.25 提前压缩防止 1M context 超限",
+    "🔇 优化在线升级为静默模式，后台更新更顺畅",
+    "🚀 合并最新优化改动"
   ]
 }
