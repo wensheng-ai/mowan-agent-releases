@@ -1,12 +1,12 @@
 {
-  "version": "2.1.4",
-  "releaseDate": "2026-09-27",
+  "version": "2.1.5",
+  "releaseDate": "2026-09-29",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.4.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.4/Mowan-Agent-Setup-2.1.4.exe",
-  "sha256": "37098a27bf5f7d122d6c377335edfbacbc8f659aa6bc3f4c0d713f4b9f2af618",
-  "fileSize": 182854486,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.5.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.5/Mowan-Agent-Setup-2.1.5.exe",
+  "sha256": "90c26a65eee5d4c62b0038497d81a07727989e9f8672ce648ed419850bdd79b2",
+  "fileSize": 182862912,
   "changelog": [
     "彻底修复代码模式下硬编码未注册模型导致的压缩失败问题，恢复 /compact 功能；所有模式压缩总结模型自动继承活跃会话模型"
   ]
