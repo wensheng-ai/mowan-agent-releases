@@ -1,14 +1,14 @@
 {
-  "version": "2.1.6",
-  "releaseDate": "2026-10-08",
+  "version": "2.1.7",
+  "releaseDate": "2026-10-27",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.6.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.6/Mowan-Agent-Setup-2.1.6.exe",
-  "sha256": "9576ecf098dff1388e16e1dc2921b47df46cd2cc7249455ce383387f0d159445",
-  "fileSize": 523186772,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.7.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.7/Mowan-Agent-Setup-2.1.7.exe",
+  "sha256": "da37fdaf1b2e2133cf6cdcc8659600cd25d98d73f6f958ea75e458fc022d2408",
+  "fileSize": 182861493,
   "changelog": [
-    "✨ 默认启用模型多模态图片输入支持",
-    "⚡ 全量升级至 v2.1.6 生产架构"
+    "⚡ 优化上下文压缩策略：调整阈值与保留比(40%/8%→30%/4%)，稳定保留8192 tokens近期上下文，摘要上限24k tokens",
+    "🔧 更新发布部署脚本，适配生产主机与远端软链"
   ]
 }
