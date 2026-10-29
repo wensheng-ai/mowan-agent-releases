@@ -1,15 +1,13 @@
 {
-  "version": "2.1.8",
-  "releaseDate": "2026-10-28",
+  "version": "2.1.9",
+  "releaseDate": "2026-10-30",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.8.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.8/Mowan-Agent-Setup-2.1.8.exe",
-  "sha256": "1e8cffe1ad5f6ecf10f7f6b442f0bf6412adc2cf263ccca297bd9b5c00b4e68a",
-  "fileSize": 182854513,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.9.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.9/Mowan-Agent-Setup-2.1.9.exe",
+  "sha256": "fe22bbc54c18a89f048fdea0ab471adb1b9c03f780f92d5fbc0258a7e78eb946",
+  "fileSize": 172049057,
   "changelog": [
-    "⚡ 优化Prompt与工具声明：紧凑化run_code SDK声明与技能目录摘要，大幅削减Token消耗",
-    "⚡ 优化上下文压缩策略：调优130k大窗口阈值与保留比，增加负向约束与关键细节保真规则",
-    "🔧 修复单测断言与类型定义，提升自动化测试稳定性"
+    "⚡ 优化上下文压缩策略：新增thresholdTokens绝对预算与安全上限控制\n⚡ 优化Prompt与工具声明：紧凑化run_code SDK声明与技能目录摘要\n🔧 修复单测断言与类型定义，提升自动化测试稳定性"
   ]
 }
