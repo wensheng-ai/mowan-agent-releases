@@ -1,13 +1,15 @@
 {
-  "version": "2.1.9",
+  "version": "2.2.0",
   "releaseDate": "2026-10-30",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.1.9.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.1.9/Mowan-Agent-Setup-2.1.9.exe",
-  "sha256": "fe22bbc54c18a89f048fdea0ab471adb1b9c03f780f92d5fbc0258a7e78eb946",
-  "fileSize": 172049057,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.0.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.0/Mowan-Agent-Setup-2.2.0.exe",
+  "sha256": "6d02fa7e80c4f4caf92657272a94e9a64093c8cf6e91ba11ac767173f31a7eec",
+  "fileSize": 174467177,
   "changelog": [
-    "⚡ 优化上下文压缩策略：新增thresholdTokens绝对预算与安全上限控制\n⚡ 优化Prompt与工具声明：紧凑化run_code SDK声明与技能目录摘要\n🔧 修复单测断言与类型定义，提升自动化测试稳定性"
+    "⚡ 支持只读工具(glob/grep)并发执行",
+    "⚡ 优化只读上下文读取窗口与并发提示词",
+    "🔧 修复SkillRegistration单测断言提升稳定性"
   ]
 }
