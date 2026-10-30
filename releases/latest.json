@@ -1,15 +1,14 @@
 {
-  "version": "2.2.0",
+  "version": "2.2.1",
   "releaseDate": "2026-10-30",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.0.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.0/Mowan-Agent-Setup-2.2.0.exe",
-  "sha256": "6d02fa7e80c4f4caf92657272a94e9a64093c8cf6e91ba11ac767173f31a7eec",
-  "fileSize": 174467177,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.1.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.1/Mowan-Agent-Setup-2.2.1.exe",
+  "sha256": "2a2a2ea3a346ae5a533679c03295df4434dcf78ff4e4401ec6d8014ff315aa16",
+  "fileSize": 174465145,
   "changelog": [
-    "⚡ 支持只读工具(glob/grep)并发执行",
-    "⚡ 优化只读上下文读取窗口与并发提示词",
-    "🔧 修复SkillRegistration单测断言提升稳定性"
+    "⚡ 强化定向并发读取提示词，杜绝候选路径逐个串行读",
+    "⚡ 优化上下文防爆机制，优先检索缩小范围并按切片读取"
   ]
 }
