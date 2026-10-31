@@ -5,11 +5,12 @@
   "mandatory": false,
   "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.2.exe",
   "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.2/Mowan-Agent-Setup-2.2.2.exe",
-  "sha256": "cb6ec74e21912df51eac24db0d6ba08990bf84247cfc867db3cb9e23d73da79e",
-  "fileSize": 708201712,
+  "sha256": "552bef8a40039d59976d264308000fcec1f7e21f55f6e87d5fff5d19fe950582",
+  "fileSize": 437680268,
   "changelog": [
-    "✨ 同步去dsh分支架构优化",
-    "🚀 更新内置Node运行时与离线全量模块",
-    "⚡ 优化安装包极速释放与启动体验"
+    "支持Loopback免Token访问",
+    "修复本地3090无法直接打开问题",
+    "升级安装程序Zip64支持",
+    "依赖扁平化隔离"
   ]
 }
