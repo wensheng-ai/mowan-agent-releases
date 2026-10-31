@@ -5,8 +5,8 @@
   "mandatory": false,
   "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.3.exe",
   "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.3/Mowan-Agent-Setup-2.2.3.exe",
-  "sha256": "d35f0e185e68a26fe2cb2b51ed74f344989afddc4f073dc2c1cab9c889ce49a6",
-  "fileSize": 2562945356,
+  "sha256": "06b39f776a7f38a993dabce8a65b6723c3184e76829be1d78fb54b0eefb2591e",
+  "fileSize": 293501093,
   "changelog": [
     "✨ 强化中文边工作边汇报机制",
     "🌐 严格保证模型输出与用户语言一致性",
