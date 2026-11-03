@@ -1,15 +1,14 @@
 {
-  "version": "2.2.3",
-  "releaseDate": "2026-10-31",
+  "version": "2.2.4",
+  "releaseDate": "2026-11-04",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.3.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.3/Mowan-Agent-Setup-2.2.3.exe",
-  "sha256": "06b39f776a7f38a993dabce8a65b6723c3184e76829be1d78fb54b0eefb2591e",
-  "fileSize": 293501093,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.4.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.4/Mowan-Agent-Setup-2.2.4.exe",
+  "sha256": "5cea2a5c66666a0ca15033f4dc54e26954b553ed44db9d256c648aebdfc35819",
+  "fileSize": 293511254,
   "changelog": [
-    "✨ 强化中文边工作边汇报机制",
-    "🌐 严格保证模型输出与用户语言一致性",
-    "🛡️ 补齐 Web 全局 system-prompt 底座兜底与 PTC 工具描述约束"
+    "修复局域网(LAN)手机访问被拦截问题",
+    "增强自动升级稳定性与本地回退机制"
   ]
 }
