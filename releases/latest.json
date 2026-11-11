@@ -1,13 +1,14 @@
 {
-  "version": "2.2.5",
+  "version": "2.2.6",
   "releaseDate": "2026-11-12",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.5.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.5/Mowan-Agent-Setup-2.2.5.exe",
-  "sha256": "841e9bed5cf2bd83e5acfc2849f822a135c57c22178bce75fd3bec2c028a1841",
-  "fileSize": 293117796,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.6.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.6/Mowan-Agent-Setup-2.2.6.exe",
+  "sha256": "f5699224db92e0d5a6b314a76355c1c5ae4189306c7717c81e8650026c7fae45",
+  "fileSize": 293102461,
   "changelog": [
-    "修复魔丸模型同步与Gemini协议模型发现/密钥校验问题"
+    "修复升级重启时网络请求中断导致的 TypeError 问题",
+    "优化安装程序分离启动与自动重连刷新"
   ]
 }
