@@ -1,14 +1,13 @@
 {
-  "version": "2.2.4",
-  "releaseDate": "2026-11-04",
+  "version": "2.2.5",
+  "releaseDate": "2026-11-12",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.4.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.4/Mowan-Agent-Setup-2.2.4.exe",
-  "sha256": "5cea2a5c66666a0ca15033f4dc54e26954b553ed44db9d256c648aebdfc35819",
-  "fileSize": 293511254,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.5.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.5/Mowan-Agent-Setup-2.2.5.exe",
+  "sha256": "841e9bed5cf2bd83e5acfc2849f822a135c57c22178bce75fd3bec2c028a1841",
+  "fileSize": 293117796,
   "changelog": [
-    "修复局域网(LAN)手机访问被拦截问题",
-    "增强自动升级稳定性与本地回退机制"
+    "修复魔丸模型同步与Gemini协议模型发现/密钥校验问题"
   ]
 }
