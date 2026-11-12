@@ -1,14 +1,14 @@
 {
-  "version": "2.2.6",
-  "releaseDate": "2026-11-12",
+  "version": "2.2.7",
+  "releaseDate": "2026-11-13",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.6.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.6/Mowan-Agent-Setup-2.2.6.exe",
-  "sha256": "f5699224db92e0d5a6b314a76355c1c5ae4189306c7717c81e8650026c7fae45",
-  "fileSize": 293102461,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.7.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.7/Mowan-Agent-Setup-2.2.7.exe",
+  "sha256": "a2db9ad769e12cd0250b8b4ee410489153461d7377f327388c79b3857b79bc24",
+  "fileSize": 293220743,
   "changelog": [
-    "修复升级重启时网络请求中断导致的 TypeError 问题",
-    "优化安装程序分离启动与自动重连刷新"
+    "优化PTC工具类型与SDK生成",
+    "支持Windows子进程系统环境变量"
   ]
 }
