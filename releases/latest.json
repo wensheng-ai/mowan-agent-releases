@@ -1,15 +1,13 @@
 {
-  "version": "2.2.11",
+  "version": "2.2.12",
   "releaseDate": "2026-11-14",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.11.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.11/Mowan-Agent-Setup-2.2.11.exe",
-  "sha256": "402f3b695889a46e3b83f7b48611864d27ce3a2a88c5116149170b14b513ec92",
-  "fileSize": 293263583,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.12.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.12/Mowan-Agent-Setup-2.2.12.exe",
+  "sha256": "873308ecc083b8f96d1021f5363ead4659a254586bb01eae569ac9d5fe8f7e60",
+  "fileSize": 293264673,
   "changelog": [
-    "调优长任务上下文压缩阈值与保留比例(0.65/0.16)",
-    "拆分 read 默认读取行数(600)与上限(2000)并收紧 spill/grep 预算",
-    "优化阶段汇报与 PTC 系统提示词去重"
+    "✨ 新增开发者模式主开关（默认关闭），支持细粒度控制受限模型协议（Google Gemini/Vertex）、Preset 选择器、会话轨迹视图、代码 Diff 与 HTML 交互预览"
   ]
 }
