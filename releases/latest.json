@@ -1,14 +1,14 @@
 {
-  "version": "2.2.7",
+  "version": "2.2.8",
   "releaseDate": "2026-11-13",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.7.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.7/Mowan-Agent-Setup-2.2.7.exe",
-  "sha256": "a2db9ad769e12cd0250b8b4ee410489153461d7377f327388c79b3857b79bc24",
-  "fileSize": 293220743,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.8.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.8/Mowan-Agent-Setup-2.2.8.exe",
+  "sha256": "2cb4c5d23e0eaf71a35ef88320b20a1cf8ad5cf083e118d29f6c08de8ccb83ba",
+  "fileSize": 293221092,
   "changelog": [
-    "优化PTC工具类型与SDK生成",
-    "支持Windows子进程系统环境变量"
+    "修复 Windows 下 PTC run_code Worker 进程因缺少 tsdown 入口打包而直接退出 (exit 0) 的问题",
+    "加固安装包构建流程，自动清理并重编 ptc-runtime-node"
   ]
 }
