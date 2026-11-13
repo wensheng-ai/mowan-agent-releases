@@ -1,14 +1,14 @@
 {
-  "version": "2.2.9",
+  "version": "2.2.10",
   "releaseDate": "2026-11-14",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.9.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.9/Mowan-Agent-Setup-2.2.9.exe",
-  "sha256": "e096aad02d3575b3a4629a50a1cd41ddd7a6f15cc214a5fab13f335149363682",
-  "fileSize": 293207508,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.10.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.10/Mowan-Agent-Setup-2.2.10.exe",
+  "sha256": "e3ed88f7abaa1b552e327c52d3e30b9a995f33160f97e46a4883e218ef439278",
+  "fileSize": 293262753,
   "changelog": [
-    "修复应用内升级误用临时目录残留旧安装包导致版本回退的问题",
-    "下载按版本号隔离存储并在重启安装前强制进行 SHA-256 二次校验"
+    "恢复 Skills 目录完整描述与触发词提示(500字符上限)",
+    "修复 tool-skill 单元测试类型问题并完成全量打包"
   ]
 }
