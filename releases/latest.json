@@ -1,13 +1,13 @@
 {
-  "version": "2.2.12",
+  "version": "2.2.13",
   "releaseDate": "2026-11-14",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.12.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.12/Mowan-Agent-Setup-2.2.12.exe",
-  "sha256": "873308ecc083b8f96d1021f5363ead4659a254586bb01eae569ac9d5fe8f7e60",
-  "fileSize": 293264673,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.13.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.13/Mowan-Agent-Setup-2.2.13.exe",
+  "sha256": "9193862fa28c435004c596c8a0ba1192abe3f4560bd20143af436493f3e3cc68",
+  "fileSize": 293283924,
   "changelog": [
-    "✨ 新增开发者模式主开关（默认关闭），支持细粒度控制受限模型协议（Google Gemini/Vertex）、Preset 选择器、会话轨迹视图、代码 Diff 与 HTML 交互预览"
+    "🐛 修复开发者模式客户端与前端静态资源打包同步（默认关闭，支持 5 项细分开关及 Google Gemini/Vertex 受限协议）"
   ]
 }
