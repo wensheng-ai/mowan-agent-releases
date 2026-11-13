@@ -1,14 +1,14 @@
 {
-  "version": "2.2.8",
-  "releaseDate": "2026-11-13",
+  "version": "2.2.9",
+  "releaseDate": "2026-11-14",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.8.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.8/Mowan-Agent-Setup-2.2.8.exe",
-  "sha256": "2cb4c5d23e0eaf71a35ef88320b20a1cf8ad5cf083e118d29f6c08de8ccb83ba",
-  "fileSize": 293221092,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.9.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.9/Mowan-Agent-Setup-2.2.9.exe",
+  "sha256": "e096aad02d3575b3a4629a50a1cd41ddd7a6f15cc214a5fab13f335149363682",
+  "fileSize": 293207508,
   "changelog": [
-    "修复 Windows 下 PTC run_code Worker 进程因缺少 tsdown 入口打包而直接退出 (exit 0) 的问题",
-    "加固安装包构建流程，自动清理并重编 ptc-runtime-node"
+    "修复应用内升级误用临时目录残留旧安装包导致版本回退的问题",
+    "下载按版本号隔离存储并在重启安装前强制进行 SHA-256 二次校验"
   ]
 }
