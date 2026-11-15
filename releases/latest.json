@@ -1,13 +1,14 @@
 {
-  "version": "2.3.1",
-  "releaseDate": "2026-11-15",
+  "version": "2.3.2",
+  "releaseDate": "2026-11-16",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.1.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.1/Mowan-Agent-Setup-2.3.1.exe",
-  "sha256": "c44cedb2919c72baf4bc537ae479c0f198555d765b7f762250310ca54f9538b5",
-  "fileSize": 290500211,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.2.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.2/Mowan-Agent-Setup-2.3.2.exe",
+  "sha256": "bd71e77c14be6b177d758e3dd220eef3d1a3dba65eb8829075f49163235b62a1",
+  "fileSize": 290501026,
   "changelog": [
-    "全新魔丸哪吒首屏插画与视觉样式升级"
+    "fix(fs-local): edit 工具重复匹配报错新增起始行号与 replace_all 警示",
+    "fix(fs-local): 零匹配报错提示核对最近读取的缩进与空行"
   ]
 }
