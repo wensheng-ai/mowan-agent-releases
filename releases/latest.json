@@ -5,8 +5,8 @@
   "mandatory": false,
   "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.0.exe",
   "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.0/Mowan-Agent-Setup-2.3.0.exe",
-  "sha256": "4a6d4cdfeed234343a298e3fbd97cfe025460e72f34e7013b1e260d1519be5bb",
-  "fileSize": 290172697,
+  "sha256": "b53a9e9be8674bc386b67cab27f5da0024ef392ea8198a454b08fa23e307d3f5",
+  "fileSize": 290062335,
   "changelog": [
     "增强 LLM 网关容错：识别纯文本报错 JSON 解析失败、连接池饱和及畸形 tool-call 并自动重试",
     "增强上下文压缩：识别网关 413 超限并支持前缀二分压缩，恢复手动压缩校验",
