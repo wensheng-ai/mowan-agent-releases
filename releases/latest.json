@@ -1,13 +1,16 @@
 {
-  "version": "2.2.13",
-  "releaseDate": "2026-11-14",
+  "version": "2.3.0",
+  "releaseDate": "2026-11-15",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.2.13.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.2.13/Mowan-Agent-Setup-2.2.13.exe",
-  "sha256": "9193862fa28c435004c596c8a0ba1192abe3f4560bd20143af436493f3e3cc68",
-  "fileSize": 293283924,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.0.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.0/Mowan-Agent-Setup-2.3.0.exe",
+  "sha256": "4a6d4cdfeed234343a298e3fbd97cfe025460e72f34e7013b1e260d1519be5bb",
+  "fileSize": 290172697,
   "changelog": [
-    "🐛 修复开发者模式客户端与前端静态资源打包同步（默认关闭，支持 5 项细分开关及 Google Gemini/Vertex 受限协议）"
+    "增强 LLM 网关容错：识别纯文本报错 JSON 解析失败、连接池饱和及畸形 tool-call 并自动重试",
+    "增强上下文压缩：识别网关 413 超限并支持前缀二分压缩，恢复手动压缩校验",
+    "优化 PTC 与工具引导：支持省略空参数，细化 schema/ACL/Sandbox 提权与语法错误提示",
+    "优化文件搜索与子代理体验：无 Git 环境下遵守忽略规则防止超时，对齐子代理恢复引导"
   ]
 }
