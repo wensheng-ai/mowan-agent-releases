@@ -5,8 +5,8 @@
   "mandatory": false,
   "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.3.exe",
   "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.3/Mowan-Agent-Setup-2.3.3.exe",
-  "sha256": "a1d86fc7d094184a1ab7c844dc5329b45c69145df81599a5047e57b9ff51a0da",
-  "fileSize": 290452691,
+  "sha256": "d1e52f138fcb61a299ec485b33260f3eee9380a8e77f788eee2631379e0c5d8d",
+  "fileSize": 290413300,
   "changelog": [
     "修复 Mowan 欢迎页角色图在暗色模式下发黑问题（改用透明 Alpha WebP）",
     "修复隧道/远程访问、侧边栏、设置及终端暗色模式对比度与边框圆角规范",
