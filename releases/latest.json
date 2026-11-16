@@ -1,14 +1,15 @@
 {
-  "version": "2.3.2",
-  "releaseDate": "2026-11-16",
+  "version": "2.3.3",
+  "releaseDate": "2026-11-17",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.2.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.2/Mowan-Agent-Setup-2.3.2.exe",
-  "sha256": "bd71e77c14be6b177d758e3dd220eef3d1a3dba65eb8829075f49163235b62a1",
-  "fileSize": 290501026,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.3.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.3/Mowan-Agent-Setup-2.3.3.exe",
+  "sha256": "a1d86fc7d094184a1ab7c844dc5329b45c69145df81599a5047e57b9ff51a0da",
+  "fileSize": 290452691,
   "changelog": [
-    "fix(fs-local): edit 工具重复匹配报错新增起始行号与 replace_all 警示",
-    "fix(fs-local): 零匹配报错提示核对最近读取的缩进与空行"
+    "修复 Mowan 欢迎页角色图在暗色模式下发黑问题（改用透明 Alpha WebP）",
+    "修复隧道/远程访问、侧边栏、设置及终端暗色模式对比度与边框圆角规范",
+    "清理前端跨包未声明的 CSS 语义变量并统一层级规范"
   ]
 }
