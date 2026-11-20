@@ -1,15 +1,15 @@
 {
-  "version": "2.3.3",
-  "releaseDate": "2026-11-17",
+  "version": "2.3.4",
+  "releaseDate": "2026-11-20",
   "minSupportedVersion": "1.0.0",
   "mandatory": false,
-  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.3.exe",
-  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.3/Mowan-Agent-Setup-2.3.3.exe",
-  "sha256": "d1e52f138fcb61a299ec485b33260f3eee9380a8e77f788eee2631379e0c5d8d",
-  "fileSize": 290413300,
+  "downloadUrl": "https://ukapi.cc/downloads/Mowan-Agent-Setup-2.3.4.exe",
+  "backupDownloadUrl": "https://github.com/wensheng-ai/mowan-agent-releases/releases/download/v2.3.4/Mowan-Agent-Setup-2.3.4.exe",
+  "sha256": "557b8e25caa7a1554bb1947425e37a61cf4457e2b6aa772bdae5e0c1820daa8f",
+  "fileSize": 290414224,
   "changelog": [
-    "修复 Mowan 欢迎页角色图在暗色模式下发黑问题（改用透明 Alpha WebP）",
-    "修复隧道/远程访问、侧边栏、设置及终端暗色模式对比度与边框圆角规范",
-    "清理前端跨包未声明的 CSS 语义变量并统一层级规范"
+    "修复 PTC 语法报错行号与源码片段提示",
+    "优化 PTC 超时机制并保留活跃子工具部分输出",
+    "新增防模型幻觉校验拦截未验证的部署与上传宣称"
   ]
 }
